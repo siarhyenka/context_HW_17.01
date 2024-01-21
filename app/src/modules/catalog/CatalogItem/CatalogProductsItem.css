@@ -1,0 +1,33 @@
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 40%;
+}
+
+.go__back__btn {
+    padding: 6px 11px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.item__title,
+.item__description,
+.item__price,
+.item__rating,
+.item__brand,
+.item__category {
+    margin-bottom: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.item__title {
+    color: black;
+}

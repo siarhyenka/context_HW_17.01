@@ -1,21 +1,14 @@
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { NavLink, Outlet } from "react-router-dom"
 import { TodoCountContext } from "../../context/TodoCountContext";
 
 
 
 export const Layout = () => {
-    // const [counter, setCounter] = useState<number>(0);
 
     const context = useContext(TodoCountContext)
     const count = context?.countTodo;
-
-    // const setCount = () => {
-    //     setCounter(counter + 1)
-    // }
-    console.log(count);
-    
-    
+ 
     return (
         <>
                 <header className='header'>
